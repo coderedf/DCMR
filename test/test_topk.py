@@ -15,6 +15,7 @@ import configparser
 import eval.eval as eva
 import sys
 
+
 transform = transforms.Compose([
     transforms.Resize((224,224)),
     transforms.ToTensor(),
