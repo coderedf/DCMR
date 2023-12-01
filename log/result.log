@@ -1,1 +1,157 @@
 
+#MIRFlick25K MAP 64bit result:
+| INFO     | model.train_test1_0529:train:353 - [itr: 1][time:180.6744][total_loss: 1191.2738][I2T_ori_map: 0.5879][T2I_ori_map: 0.4038]
+ori_avg_map: tensor(0.4958, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 2][time:182.0416][total_loss: 680.2518][I2T_ori_map: 0.6579][T2I_ori_map: 0.4199]
+ori_avg_map: tensor(0.5389, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 3][time:171.5665][total_loss: 510.0642][I2T_ori_map: 0.6522][T2I_ori_map: 0.4909]
+ori_avg_map: tensor(0.5715, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 4][time:178.2959][total_loss: 370.0129][I2T_ori_map: 0.6695][T2I_ori_map: 0.5103]
+ori_avg_map: tensor(0.5899, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 5][time:171.4941][total_loss: 459.5070][I2T_ori_map: 0.6703][T2I_ori_map: 0.5363]
+ori_avg_map: tensor(0.6033, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 6][time:157.2283][total_loss: 321.7933][I2T_ori_map: 0.6733][T2I_ori_map: 0.5649]
+ori_avg_map: tensor(0.6191, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 7][time:177.9992][total_loss: 266.9283][I2T_ori_map: 0.6797][T2I_ori_map: 0.5809]
+ori_avg_map: tensor(0.6303, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 8][time:154.9930][total_loss: 332.5891][I2T_ori_map: 0.6873][T2I_ori_map: 0.5958]
+ori_avg_map: tensor(0.6416, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 9][time:151.7886][total_loss: 281.2942][I2T_ori_map: 0.6899][T2I_ori_map: 0.6027]
+ori_avg_map: tensor(0.6463, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 10][time:168.3863][total_loss: 287.6543][I2T_ori_map: 0.6930][T2I_ori_map: 0.6051]
+ori_avg_map: tensor(0.6491, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 42][time:155.9906][total_loss: 144.1884][I2T_ori_map: 0.7111][T2I_ori_map: 0.6355]
+ori_avg_map: tensor(0.6733, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 60][time:174.2703][total_loss: 99.3896][I2T_ori_map: 0.7112][T2I_ori_map: 0.6355]
+| INFO     | model.train_test1_0529:train:353 - [itr: 100][time:159.1057][total_loss: 85.5381][I2T_ori_map: 0.7174][T2I_ori_map: 0.6356]
+ori_avg_map: tensor(0.6756, device='cuda:0')
+########################################
+#NUS-WIDE10.5K MAP 64bit result:
+| INFO     | model.train_test1_0529:train:354 - [itr: 1][time:145.7169][total_loss: 1277.4033][I2T_ori_map: 0.6085][T2I_ori_map: 0.4989]
+ori_avg_map: tensor(0.5537, device='cuda:0')
+| INFO     | model.train_test1_0529:train:354 - [itr: 2][time:142.0062][total_loss: 674.3932][I2T_ori_map: 0.6243][T2I_ori_map: 0.5186]
+ori_avg_map: tensor(0.5714, device='cuda:0')
+| INFO     | model.train_test1_0529:train:354 - [itr: 3][time:142.5485][total_loss: 501.5411][I2T_ori_map: 0.6403][T2I_ori_map: 0.5290]
+ori_avg_map: tensor(0.5846, device='cuda:0')
+| INFO     | model.train_test1_0529:train:354 - [itr: 4][time:142.8699][total_loss: 428.7567][[I2T_ori_map: 0.6382][T2I_ori_map: 0.5338]
+ori_avg_map: tensor(0.5860, device='cuda:0')
+| INFO     | model.train_test1_0529:train:354 - [itr: 5][time:144.3459][total_loss: 421.3610][I2T_ori_map: 0.6467][T2I_ori_map: 0.5356]
+ori_avg_map: tensor(0.5912, device='cuda:0')
+| INFO     | model.train_test1_0529:train:354 - [itr: 6][time:142.4438][total_loss: 334.8288][I2T_ori_map: 0.6482][T2I_ori_map: 0.5633]
+ori_avg_map: tensor(0.6058, device='cuda:0')
+| INFO     | model.train_test1_0529:train:354 - [itr: 7][time:144.5260][total_loss: 334.8008][I2T_ori_map: 0.6504][T2I_ori_map: 0.5752]
+ori_avg_map: tensor(0.6128, device='cuda:0'
+| INFO     | model.train_test1_0529:train:354 - [itr: 27][time:144.4247][total_loss: 158.2163][I2T_ori_map: 0.6637][T2I_ori_map: 0.5995]
+ori_avg_map: tensor(0.6316, device='cuda:0')
+| INFO     | model.train_test1_0529:train:354 - [itr: 46][time:139.2369][total_loss: 192.3220][I2T_ori_map: 0.6649][T2I_ori_map: 0.6034]
+ori_avg_map: tensor(0.6342, device='cuda:0')
+ | INFO     | model.train_test1_0529:train:354 - [itr: 72][time:139.6293][total_loss: 85.6264][I2T_ori_map: 0.6662][T2I_ori_map: 0.6071]
+ ori_avg_map: tensor(0.6367, device='cuda:0')
+#################################
+#MIRFlick25K MAP 32bit result:
+| INFO     | model.train_test1_0529:train:353 - [itr: 1][time:80.7466][total_loss: 321.9173][I2T_ori_map: 0.6303][T2I_ori_map: 0.3915]
+ori_avg_map: tensor(0.5109, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 2][time:86.0743][total_loss: 213.0629][I2T_ori_map: 0.6409][T2I_ori_map: 0.4549]
+ori_avg_map: tensor(0.5479, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 3][time:96.4044][total_loss: 135.5078][I2T_ori_map: 0.6527][T2I_ori_map: 0.5161]
+ori_avg_map: tensor(0.5844, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 4][time:94.1498][total_loss: 131.0891][I2T_ori_map: 0.6611][T2I_ori_map: 0.5440]
+ori_avg_map: tensor(0.6026, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 5][time:94.8293][total_loss: 146.9111][I2T_ori_map: 0.6717][T2I_ori_map: 0.5636]
+ori_avg_map: tensor(0.6176, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 6][time:77.4969][total_loss: 103.0090][I2T_ori_map: 0.6751][T2I_ori_map: 0.5740]
+ori_avg_map: tensor(0.6246, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 7][time:89.8314][total_loss: 84.4406][I2T_ori_map: 0.6767][T2I_ori_map: 0.5858]
+ori_avg_map: tensor(0.6313, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 8][time:96.9870][total_loss: 82.4178][I2T_ori_map: 0.6796][T2I_ori_map: 0.5927]
+ori_avg_map: tensor(0.6362, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 9][time:97.2617][total_loss: 76.8238][I2T_ori_map: 0.6789][T2I_ori_map: 0.5983]
+ori_avg_map: tensor(0.6386, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 10][time:86.3333][total_loss: 84.1454][I2T_ori_map: 0.6845][T2I_ori_map: 0.6065]
+ori_avg_map: tensor(0.6455, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 26][time:99.6777][total_loss: 41.8921][[I2T_ori_map: 0.6953][T2I_ori_map: 0.6203]
+ori_avg_map: tensor(0.6578, device='cuda:0')
+#######################################
+#NUS-WIDE10.5K MAP 32bit result:
+| INFO     | model.train_test1_0529:train:353 - [itr: 1][time:38.8283][total_loss: 456.5617][I2T_ori_map: 0.6057][T2I_ori_map: 0.4972]
+ori_avg_map: tensor(0.5515, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 2][time:38.7076][total_loss: 310.7823][I2T_ori_map: 0.6081][T2I_ori_map: 0.5270]
+ori_avg_map: tensor(0.5676, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 3][time:58.2788][total_loss: 231.9145][I2T_ori_map: 0.6228][T2I_ori_map: 0.5237]
+ori_avg_map: tensor(0.5733, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 4][time:63.6162][total_loss: 175.9825][I2T_ori_map: 0.6316][T2I_ori_map: 0.5328]
+ori_avg_map: tensor(0.5822, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 5][time:70.3053][total_loss: 184.5585][I2T_ori_map: 0.6353][T2I_ori_map: 0.5595]
+ori_avg_map: tensor(0.5974, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 6][time:73.9119][total_loss: 154.4926][I2T_ori_map: 0.6415][T2I_ori_map: 0.5766]
+ori_avg_map: tensor(0.6090, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 7][time:75.0193][total_loss: 152.4641][I2T_ori_map: 0.6428][T2I_ori_map: 0.5817]
+ori_avg_map: tensor(0.6122, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 8][time:51.3575][total_loss: 141.7556][I2T_ori_map: 0.6434][T2I_ori_map: 0.5834]
+ori_avg_map: tensor(0.6134, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 9][time:39.6351][total_loss: 136.1707][I2T_ori_map: 0.6435][T2I_ori_map: 0.5827]
+| INFO     | model.train_test1_0529:train:353 - [itr: 10][time:38.1698][total_loss: 113.8333][I2T_ori_map: 0.6433][T2I_ori_map: 0.5893]
+ori_avg_map: tensor(0.6163, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 21][time:39.3513][total_loss: 86.7579][I2T_ori_map: 0.6497][T2I_ori_map: 0.5960]
+ori_avg_map: tensor(0.6229, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 28][time:49.0677][total_loss: 68.6536][I2T_ori_map: 0.6534][T2I_ori_map: 0.5954]
+ori_avg_map: tensor(0.6244, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 36][time:58.3831][total_loss: 77.1423][I2T_ori_map: 0.6516][T2I_ori_map: 0.5988]
+ori_avg_map: tensor(0.6252, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 88][time:35.0455][total_loss: 53.1729][I2T_ori_map: 0.6546][T2I_ori_map: 0.5969]
+ori_avg_map: tensor(0.6258, device='cuda:0')
+#######################################
+#MIRFlick25K MAP 16bit result:
+| INFO     | model.train_test1_0529:train:353 - [itr: 1][time:90.0996][total_loss: 105.8281][I2T_ori_map: 0.5976][T2I_ori_map: 0.3756]
+ori_avg_map: tensor(0.4866, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 2][time:82.8766][total_loss: 73.1735][I2T_ori_map: 0.6119][T2I_ori_map: 0.4088]
+ori_avg_map: tensor(0.5103, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 3][time:131.0564][total_loss: 53.1916][I2T_ori_map: 0.6243][T2I_ori_map: 0.4998]
+ori_avg_map: tensor(0.5621, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 4][time:121.2027][total_loss: 35.7667][I2T_ori_map: 0.6346][T2I_ori_map: 0.5222]
+ori_avg_map: tensor(0.5784, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 5][time:88.9845][total_loss: 27.9699][I2T_ori_map: 0.6341][T2I_ori_map: 0.5359]
+ori_avg_map: tensor(0.5850, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 6][time:83.3865][total_loss: 46.0417][I2T_ori_map: 0.6353][T2I_ori_map: 0.5528]
+ori_avg_map: tensor(0.5940, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 7][time:98.3586][total_loss: 36.0467][I2T_ori_map: 0.6319][T2I_ori_map: 0.5549]
+| INFO     | model.train_test1_0529:train:353 - [itr: 8][time:97.0029][total_loss: 30.9792][I2T_ori_map: 0.6407][T2I_ori_map: 0.5650]
+ori_avg_map: tensor(0.6028, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 9][time:97.8597][total_loss: 35.0639][I2T_ori_map: 0.6550][T2I_ori_map: 0.5790]
+ori_avg_map: tensor(0.6170, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 20][time:73.1184][total_loss: 22.2277][I2T_ori_map: 0.6597][T2I_ori_map: 0.5837]
+ori_avg_map: tensor(0.6217, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 30][time:79.6367][total_loss: 13.3108][I2T_ori_map: 0.6592][T2I_ori_map: 0.5852]
+ori_avg_map: tensor(0.6222, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 36][time:94.7151][total_loss: 11.3843][I2T_ori_map: 0.6663][T2I_ori_map: 0.5914]
+ori_avg_map: tensor(0.6288, device='cuda:0')
+
+#######################################
+#NUS-WIDE10.5K MAP 16bit result:
+| INFO     | model.train_test1_0529:train:353 - [itr: 1][time:54.2296][total_loss: 262.1360][loss_l2m: 28.2342][loss_m2l: 16.7322][loss_floatsim: 78.6876][loss_class: 205.2672][loss_dif: 0.7176]loss_contras: 4.0277[I2T_ori_map: 0.5902][T2I_ori_map: 0.4326]
+ori_avg_map: tensor(0.5114, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 2][time:57.2751][total_loss: 187.3025][loss_l2m: 32.7466][loss_m2l: 14.5671][loss_floatsim: 48.4332][loss_class: 159.7388][loss_dif: 0.9159]loss_contras: 4.3237[I2T_ori_map: 0.6041][T2I_ori_map: 0.5226]
+ori_avg_map: tensor(0.5633, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 3][time:56.8631][total_loss: 143.0853][loss_l2m: 26.7241][loss_m2l: 11.5029][loss_floatsim: 35.8642][loss_class: 127.5582][loss_dif: 0.9938]loss_contras: 4.1371[I2T_ori_map: 0.6172][T2I_ori_map: 0.5335]
+ori_avg_map: tensor(0.5754, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 4][time:56.7552][total_loss: 135.3722][loss_l2m: 29.3147][loss_m2l: 11.4275][loss_floatsim: 34.3939][loss_class: 121.0279][loss_dif: 1.3135]loss_contras: 3.8588[I2T_ori_map: 0.6199][T2I_ori_map: 0.5526]
+ori_avg_map: tensor(0.5863, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 5][time:57.2383][total_loss: 128.5084][loss_l2m: 27.8823][loss_m2l: 9.4912][loss_floatsim: 32.6026][loss_class: 115.7182][loss_dif: 1.6381]loss_contras: 3.8083[I2T_ori_map: 0.6212][T2I_ori_map: 0.5688]
+ori_avg_map: tensor(0.5950, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 6][time:57.7350][total_loss: 101.4942][loss_l2m: 27.4188][loss_m2l: 10.1718][loss_floatsim: 25.4996][loss_class: 95.3613][loss_dif: 1.6085]loss_contras: 3.6699[I2T_ori_map: 0.6203][T2I_ori_map: 0.5685]
+| INFO     | model.train_test1_0529:train:353 - [itr: 7][time:41.5552][total_loss: 94.1396][loss_l2m: 23.6334][loss_m2l: 10.8512][loss_floatsim: 25.0334][loss_class: 88.3846][loss_dif: 1.7372]loss_contras: 3.5544[I2T_ori_map: 0.6169][T2I_ori_map: 0.5694]
+| INFO     | model.train_test1_0529:train:353 - [itr: 8][time:32.0388][total_loss: 99.0003][loss_l2m: 28.8855][loss_m2l: 9.6793][loss_floatsim: 28.8621][loss_class: 89.6636][loss_dif: 1.2368]loss_contras: 3.6762[I2T_ori_map: 0.6235][T2I_ori_map: 0.5748]
+ori_avg_map: tensor(0.5991, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 9][time:32.2494][total_loss: 80.3595][loss_l2m: 25.1838][loss_m2l: 9.8064][loss_floatsim: 22.1087][loss_class: 77.3150][loss_dif: 1.8319]loss_contras: 3.2867[I2T_ori_map: 0.6229][T2I_ori_map: 0.5770]
+ori_avg_map: tensor(0.6000, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 21][time:65.0812][total_loss: 48.6175][I2T_ori_map: 0.6320][T2I_ori_map: 0.5837]
+ori_avg_map: tensor(0.6078, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 36][time:54.9230][total_loss: 41.7821][I2T_ori_map: 0.6341][T2I_ori_map: 0.5847]
+ori_avg_map: tensor(0.6094, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 46][time:62.5101][total_loss: 22.8455][I2T_ori_map: 0.6369][T2I_ori_map: 0.5834]
+ori_avg_map: tensor(0.6101, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 49][time:34.6606][total_loss: 49.2296][I2T_ori_map: 0.6360][T2I_ori_map: 0.5856]
+ori_avg_map: tensor(0.6108, device='cuda:0')
+| INFO     | model.train_test1_0529:train:353 - [itr: 87][time:33.5974][total_loss: 37.9079][I2T_ori_map: 0.6369][T2I_ori_map: 0.5850]
+ori_avg_map: tensor(0.6109, device='cuda:0')
+#######################################
