@@ -19,7 +19,7 @@
 - The CLIP model is same as https://github.com/mlfoundations/open_clip.
 
 ## Results
-![img.png](img.png)
+![img.png](image.png)
 The training logs for each dataset are avalible in [log/](log/).
 
 ## code for other baselines
