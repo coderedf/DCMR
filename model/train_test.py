@@ -164,7 +164,7 @@ def train(opt,train_loader,
                             - torch.log(opt.code_length * Sim - torch.diag(label_hash_code @ label_hash_code.t() ) ** 2).mean()\
                             - torch.log(opt.code_length * Sim - torch.diag(img_hash_p @ txt_hash_p.t()) ** 2).mean()
 
-            loss_triple = loss_triple1 + loss_triple2
+            loss_triple = loss_triple1 + 0.1*loss_triple2
 
             #loss contrastive
             loss_contrastive_c = InfoNCE(img_hash_c, txt_hash_c)
@@ -192,30 +192,14 @@ def train(opt,train_loader,
             img_label_sim_norm = (img_label_sim - torch.min(img_label_sim)) / (torch.max(img_label_sim) - torch.min(img_label_sim))
             txt_label_sim_norm = (txt_label_sim - torch.min(txt_label_sim)) / (torch.max(txt_label_sim) - torch.min(txt_label_sim))
 
-            #loss_purify1
-            eta = opt.eta
-            a_img = img_sim_norm ** 2
-            a_txt = txt_sim_norm ** 2
-            a = eta * a_img + (1 - eta) * a_txt
-            loss_purify1 = (a / (1 - torch.log(1.001 - label_sim_norm))).sum(1).mean()
 
-
-            # loss_purify2
-            a_label = label_sim_norm ** 2
-            a_img_ = 1 - torch.log(1.001 - img_sim_norm)
-            a_txt_ = 1 - torch.log(1.001 - txt_sim_norm)
-            a_txt_img_ = 1 - torch.log(1.001 - img_txt_sim_norm)
-            a_img_label_ = 1 - torch.log(1.001 - img_label_sim_norm)
-            a_txt_label_ = 1 - torch.log(1.001 - txt_label_sim_norm)
-            # loss_l2m= (a_label/a_img_ + a_label/a_txt_ + a_label/a_img_label_+ a_label/a_txt_label_).sum(1).mean()
-            loss_purify2 = (label_sim_norm / (1 - torch.log(1.001 - 0/5*(a)))).sum(1).mean()
-            loss_purify = loss_purify1 + loss_purify2
+            loss_refine = ((torch.exp(img_sim + txt_sim) - torch.exp(label_sim)) ** 2).sum(1).mean()
             #=============================
             # optional
             labels_pre = labels/labels.sum(1).unsqueeze(1).expand(labels.shape[0],opt.label_size)
             loss_class = F.kl_div(img_predict.log(),labels_pre,reduction='sum')+F.kl_div(txt_predict.log(),labels_pre,reduction='sum')
 
-            loss= loss_triple + 0.01*loss_contrastive_c + 0.01*loss_contrastive_s + 0.1*loss_Ex + 0.001*loss_purify + loss_class # change
+            loss= loss_triple + (loss_contrastive_c + 0.1*loss_contrastive_s) + 0.1*loss_Ex + 0.001*loss_refine
 
             #only modal optimization
             img_optimizer.zero_grad()
