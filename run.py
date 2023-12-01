@@ -66,7 +66,6 @@ if __name__=='__main__':
         # img, tags, labels, S= dd.nus_wide_data()
         img, tags, labels = dd.nus_wide_data()
         train_loader, test_loader, dataset_loader, label_train_loader = loader.load_train_nus(config, img, tags, labels, 1)
-
     # train_loader, test_loader, dataset_loader, label_train_loader = loader.load_train(config, img, tags, labels, S, 1)
 
     tt.train(config,train_loader,
