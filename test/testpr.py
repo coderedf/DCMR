@@ -14,6 +14,7 @@ from data import data_deal as dd
 import configparser
 import eval.eval as eva
 
+
 transform = transforms.Compose([
     transforms.Resize((224,224)),
     transforms.ToTensor(),
