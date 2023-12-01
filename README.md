@@ -1,4 +1,4 @@
-# Disentangled Hashing for Cross-Modal Retrieval with Unified Representation
+# Alleviating the Inconsistency of Multimodal Data in Cross-Modal Retrieval
 
 ## Requirments
 - `python==3.5`
@@ -14,8 +14,9 @@
 ## Datasets and pretrain model
 - The datasets used in our paper are orgnized in [data/](data/), where each dataset contains the image list, multi-label list, txt list and truth relevant pair.
 - The images in the MIRFlickr25K is dowload from http://press.liacs.nl/mirflickr/mirdownload.html, original images in NUS-WIDE10.5K is download from https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html.
-- The Evaluation metric of all the method is same as Bi-CMR. 
+- The Evaluation metric of all the method is same as Bi-CMR and AGAH. 
 - The CNN-F model is same as DCMH.
+- The CLIP model is same as https://github.com/mlfoundations/open_clip.
 
 ## Results
 ![img.png](img.png)
@@ -28,5 +29,6 @@ The training logs for each dataset are avalible in [log/](log/).
 - AGAH: https://github.com/WendellGul/AGAH
 - Bi-CMR: https://github.com/lty4869/Bi-CMR
 - GNN-CON: Coded according to the original paper (no open source code)
-- P3S: Coded according to the original paper
-- DCHUC: https://github.com/rongchengtu1/DCHUC (no open source code)
+- P3S: Coded according to the original paper (no open source code)
+- JiangNet: Coded according to the original paper (no open source code)
+- DCHUC: https://github.com/rongchengtu1/DCHUC
