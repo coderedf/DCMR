@@ -128,7 +128,6 @@ class ImgModule(nn.Module):
         hash_code = self.hash(class_f)
         # private hash code
         hash_code_p = self.hash_private(private_f)
-
         return hash_code, hash_code_p, img_predict, class_f, private_f, original_f
 
 
